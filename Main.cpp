@@ -10,5 +10,6 @@ int main(int argc, char* argv[]) {
 		engine->Update();
 		engine->Render();
 	}
+	delete engine;
 	return 0;
 }
